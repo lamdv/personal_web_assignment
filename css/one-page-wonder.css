@@ -13,7 +13,7 @@ body {
     display: block;
     width: 100%;
     text-align: center;
-    background: url('http://placehold.it/1900x500') no-repeat center center scroll;
+    background: url('https://www.facebook.com/photo/download/?fbid=1188677631147230&ext=1473599469&hash=AeR5JxwU8RJPvXpx') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -21,11 +21,11 @@ body {
 }
 
 .headline {
-    padding: 120px 0;
+    padding: 0 0 10px 0;
 }
 
 .headline h1 {
-    font-size: 130px;
+    font-size: 100px;
     background: #fff;
     background: rgba(255,255,255,0.9);
 }
@@ -42,11 +42,12 @@ body {
 
 .featurette {
     overflow: hidden;
+    max-width: 1200px;
 }
 
 .featurette-image {
-    max-height: 500px;
-    max-width: 500px;
+    max-height: 300px;
+    max-width: 300px;
 }
 
 .featurette-image.pull-left {
@@ -196,4 +197,49 @@ li.member{
 }
 .featurette-heading {
     font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+
+.box-header{
+    border-bottom: 2px solid black;
+    border-top-left-radius:50px;
+    border-top-right-radius:50px;
+    margin: none;
+    background-color: slategray;
+    padding: 0;
+    height: 100%;
+}
+
+.box{
+    border: 2px solid black;
+    border-radius: 50px;
+    margin: 5px;
+    padding: 0;
+}
+
+.invisible{
+    opacity:0;
+}
+.visible{
+    opacity:1;
+}
+
+.placeholder-header{
+    position: absolute 0 0;
+    width: 1200px;
+    height: 500px;
+}
+
+.prize {
+    max-width: 500px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+
 }

@@ -16,6 +16,7 @@
 
     <!-- Custom CSS -->
     <link href="css/one-page-wonder.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -70,15 +71,16 @@
     </nav>
 
     <!-- Full Width Image Header -->
-    <header class="header-image">
+    <div class="header-image">
+        <div class="placeholder-header"></div>
+    </div>
+
         <div class="headline">
             <div class="container">
                 <h1>Đặng Vũ Lâm</h1>
                 <h2>An average Human being</h2>
             </div>
         </div>
-    </header>
-
     <!-- Page Content -->
     <div class="container">
 
@@ -87,8 +89,8 @@
         <!-- First Featurette -->
         <div class="featurette" id="info">
             <img class="featurette-image  img-responsive pull-right" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAK9AAAAJDVhZjYyZTIzLWExYjEtNDczZC1hOGJlLTNmYjU3ZDNkMTY1OA.jpg">
-            <h2 class="featurette-heading">Personal Information
-                <span class="text-muted">You Should have Know Me Anyway.</span>
+            <h2 class="featurette-heading">Personal Information <br>
+                <span class="text-muted">Something about me.</span>
             </h2>
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
@@ -97,27 +99,49 @@
 
         <!-- Second Featurette -->
         <div class="featurette row" id="edu">
-            <img class="featurette-image  img-responsive pull-left" src="http://www.usth.edu.vn/uploads/logo.png">
-            <div class="col-md-8">
-            <h2 class="featurette-heading">Education
-                <span class="text-muted">You Know, School Is Pretty Important, too.</span>
-            </h2>
-            <ul>
-                <li class="col-md-12">
-                    <h2><strong>Secondary Education</strong></h2>
-                    <p class="lead"><strong>Nguyen Tat Thanh High School,</strong><br/>
-                    <small style="font-style: italic;">Class of 2013</small></p>
-                </li>
-
-                <li class="col-md-12">
-                    <h2><strong>Tertiary Education</strong></h2>
-                    <p class="lead"><bold>University of Sciences and Technologies of Hanoi </bold><br>
-                    <small style="font-style: italic;">Class of 2017</small> <br>
-                    <span style="font-style: italic;"> Bachelor in Information and Communication Technology</span></p>                    
-                </li>
-            </ul>
+            <div class="row">
+                <img class="featurette-image  img-responsive pull-left" src="http://www.usth.edu.vn/uploads/logo.png">
+                <div class="col-md-8">
+                    <h2 class="featurette-heading">Education <br>
+                        <span class="text-muted">You Know, School Is Pretty Important, too.</span>
+                    </h2>
+                </div>
             </div>
-            
+            <hr>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading"><h4>Secondary Education</h4></div>
+                        <div class="panel-body">
+                            <h4>Nguyen Tat Thanh High School,<br/>
+                            <small style="font-style: italic;">Class of 2013</small></h4><br>
+                            <i style="font-size: 1.2em">Mathematics Specialized Class</i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading"><h4>Tertiary Education</h4></div>
+                        <div class="panel-body">
+                            <h4>University of Sciences and Technologies of Hanoi <br>
+                            <small style="font-style: italic;">Class of 2017</small></h4> <br>
+                            <i style="font-size: 1.2em">Bachelor in Information and Communication Technology</i>
+                        </div>
+                    </div>                    
+                </div>
+
+                <div class="col-md-4">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading"><h4>Vocational Education</h4></div>
+                        <div class="panel-body">
+                            <h4>FPT Aptech <br>
+                            <small style="font-style: italic;">Class of 2014</small></h4> <br>
+                            <i style="font-size: 1.2em">Diploma in Information System Management</i>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
         </div>
 
         <hr class="featurette-divider">
@@ -125,7 +149,7 @@
         <!-- Third Featurette -->
         <div class="featurette" id="field">
             <img class="featurette-image  img-responsive pull-right" src="https://upload.wikimedia.org/wikipedia/commons/a/aa/GMAW.welding.af.ncs.jpg">
-            <h2 class="featurette-heading">Field of Interest
+            <h2 class="featurette-heading">Field of Interest <br>
                 <span class="text-muted">Because the World is not Big Enough.</span>
             </h2>   
             <ul class="lead">
@@ -153,7 +177,7 @@
                 <li class="top">Internet of Things</li>
                 <li class="top">Software Engineering</li>
                 <li class="top">System Intergration</li>
-                <li class="top">Human-Machine Interface</li>
+                <li class="top">Human-Machine Interaction</li>
             </ul>
         </div>
 
@@ -162,7 +186,7 @@
         <!-- Second Featurette -->
         <div class="featurette" id="skill">
             <img class="featurette-image  img-responsive pull-left" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">Skill Set
+            <h2 class="featurette-heading">Skill Set<br>
                 <span class="text-muted">Just the things I can do.</span>
             </h2>
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
@@ -173,7 +197,7 @@
         <!-- Second Featurette -->
         <div class="featurette" id="work">
             <img class="featurette-image  img-responsive pull-right" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">Piror Work - Conferences
+            <h2 class="featurette-heading">Piror Work - Conferences <br>
                 <span class="text-muted">Is Pretty Cool Too.</span>
             </h2>
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
@@ -183,25 +207,29 @@
 
         <!-- Second Featurette -->
         <div class="featurette" id="prize">
-            <img class="featurette-image  img-responsive col-md-4" src="http://placehold.it/500x500">
-            <div class="col-md-8">
+            <img class="featurette-image  img-responsive pull-left" src="http://placehold.it/500x500">
                 <h2 class="featurette-heading">Honor and Prize <br>
                     <span class="text-muted">Can't believe they gave me these.</span>
                 </h2>
-                <div>
+                <div class="prize pull-right">
                     <h2 class="heading">Dream Project Incubator - 2015</h2>
                     <img class="featurette-image  img-responsive pull-right" src="http://placehold.it/200x200">
                     <p class="lead">
                         Dream Project Incubator is a program setup by MIT PhDs and PhD candidates along with Boston Global Forum. It aims to transform ambitious, self-driven young Vietnamese into better thinkers and doers via intellectual engagement and mentorship. The recipients of the scholarship are awarded a 3 months stay in Boston, and the chances to meet and confer with top minds from MIT and Havard University.
                     </p>
                 </div>
-                <div>
+                <div class="prize pull-left">
                     <h2>FAB12 Conference - 2016</h2>
                     <img class="featurette-image  img-responsive pull-right" src="http://placehold.it/200x200">
                     <p class="text-muted">
                     </p>
                 </div>
-            </div>
+                <div class="prize pull-right">
+                    <h2>FAB12 Conference - 2016</h2>
+                    <img class="featurette-image  img-responsive pull-right" src="http://placehold.it/200x200">
+                    <p class="text-muted">
+                    </p>
+                </div>
         </div>
 
         <hr class="featurette-divider">
@@ -223,7 +251,40 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    
+    <script src="js/jquery.viewportchecker.min.js"></script>
 
+    <script>
+        jQuery(document).ready(function() {
+            jQuery('.featurette').addClass("invisible").viewportChecker({
+                classToAdd: 'visible animated fadeIn',
+                offset: 100
+            });
+            jQuery('.panel').addClass("invisible").viewportChecker({
+                classToAdd: 'visible animated slideInLeft',
+                offset: 100
+            });
+
+            jQuery('.pull-right').addClass("invisible").viewportChecker({
+                classToAdd: 'visible animated slideInLeft',
+                offset: 100
+            });
+            jQuery('.pull-left').addClass("invisible").viewportChecker({
+                classToAdd: 'visible animated slideInRight',
+                offset: 100
+            });
+        });
+        $(".panel-heading").hover(function(){
+            $(this).parent().parent().addClass("col-md-12");
+            $(this).parent().parent().removeClass("col-md-4");
+            $(".panel").addClass("invisible");
+            $(this).parent().parent().removeClass("invisible");
+        }, function(){
+            $(this).parent().parent().addClass("col-md-4");
+            $(this).parent().parent().removeClass("col-md-12");
+            $(".panel").removeClass("invisible");
+        } );
+    </script>
 </body>
 
 </html>
