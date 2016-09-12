@@ -13,7 +13,7 @@ body {
     display: block;
     width: 100%;
     text-align: center;
-    background: url('https://www.facebook.com/photo/download/?fbid=1188677631147230&ext=1473599469&hash=AeR5JxwU8RJPvXpx') no-repeat center center scroll;
+    background: url('../img/cover.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -38,6 +38,7 @@ body {
 
 .featurette-divider {
     margin: 80px 0;
+    border-top: 1px solid #eee;
 }
 
 .featurette {
@@ -184,12 +185,13 @@ footer {
     }
 }
 
-li.top {
+ul.lead {
     font-weight: bold;
 }
 
-li.member{
+ul.member{
     font-weight: normal;
+    margin-left: 10px;
 }
 
 .heading{
@@ -233,13 +235,21 @@ ul {
 .placeholder-header{
     position: absolute 0 0;
     width: 1200px;
-    height: 500px;
+    height: 600px;
 }
 
 .prize {
-    max-width: 500px;
     padding: 0;
     margin: 0;
     border: 0;
 
+}
+
+.work {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+h3 {
+    font-weight: bold;
 }

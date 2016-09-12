@@ -1147,7 +1147,6 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #eee;
 }
 .sr-only {
   position: absolute;
@@ -1294,6 +1293,7 @@ p {
   font-size: 16px;
   font-weight: 300;
   line-height: 1.4;
+  text-align: justify;
 }
 @media (min-width: 768px) {
   .lead {

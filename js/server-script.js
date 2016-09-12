@@ -25,7 +25,7 @@ app.set('view engine','jade');
 app.use("/css",  express.static(__dirname + '/../css'));
 app.use("/js", express.static(__dirname + '/../js'));
 app.use("/font", express.static(__dirname + '/../font'));
-app.use("/images",  express.static(__dirname + '/../images'));
+app.use("/img",  express.static(__dirname + '/../img'));
 
 //index handler
 app.get('/', function(req, res){
